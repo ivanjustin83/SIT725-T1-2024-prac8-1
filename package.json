@@ -1,0 +1,41 @@
+{
+  "name": "sit725-t1-2024-prac3",
+  "version": "1.0.0",
+  "description": "Practical 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --reporter spec --require esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanjustin83/SIT725-T1-2024-prac3.git"
+  },
+  "keywords": [
+    "Practical",
+    "3"
+  ],
+  "author": "Ivan Justin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanjustin83/SIT725-T1-2024-prac3/issues"
+  },
+  "homepage": "https://github.com/ivanjustin83/SIT725-T1-2024-prac3#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "mongodb": "^6.5.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "ts-node": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0",
+    "chai": "^5.1.0",
+    "chai-http": "^4.4.0",
+    "esm": "^3.2.25",
+    "mocha": "^10.4.0"
+  }
+}
